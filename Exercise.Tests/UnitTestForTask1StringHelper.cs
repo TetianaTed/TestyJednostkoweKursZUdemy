@@ -1,9 +1,9 @@
 namespace Exercise.Tests
 {
-    public class UnitTest1
+    public class UnitTestForTask1StringHelper
     {
         //NazwaMetody_Scenariusz_Rezultat
-        //Append_ForTwoStrings_ReturnsConccatenatString()
+        //Append_ForTwoStrings_ReturnsConcatenatString()
 
         [Fact] 
         public void ReverseWords_ForStrings_ReturnsReversedWords()
