@@ -4,6 +4,7 @@
     {
         public static string ReverseWords(string str)
         {
+
             // "ala ma kota" => "kota ma ala"
             // "to jest test" -> "test jest to"
 
@@ -18,6 +19,7 @@
             // "ola" -> false
             // "ala" -> true
             // "Ala" -> false
+            // "kajak" -> true
 
             return str.SequenceEqual(str.Reverse());
         }
